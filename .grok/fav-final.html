@@ -1,0 +1,14 @@
+<!doctype html><meta charset=utf-8>
+<style>body{margin:0;background:#1c1b18} .row{display:flex;gap:24px;padding:24px;align-items:center}
+img{width:160px;height:160px} canvas{width:160px;height:160px;image-rendering:pixelated}</style>
+<body><div class=row><img id=i src="fav-final.svg"><canvas id=c width=16 height=16></canvas></div>
+<script>
+const img=document.getElementById('i');
+img.onload=()=>{
+  const s=document.createElement('canvas'); s.width=16; s.height=16;
+  s.getContext('2d').drawImage(img,0,0,16,16);
+  const c=document.getElementById('c');
+  const g=c.getContext('2d'); g.imageSmoothingEnabled=false;
+  g.drawImage(s,0,0,16,16,0,0,160,160);
+};
+</script>

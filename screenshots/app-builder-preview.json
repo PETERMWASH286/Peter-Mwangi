@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Peter Mwangi",
+      "hasCanvas": false,
+      "bodyTextLen": 5381,
+      "bodyTextHash": "7b1f43a128d521c7e23528a42ffef2e98ed94d7b92e6541364eeabcf37bae7ec",
+      "bodyTextPrefix": "Skip to content Peter Mwangi Work Methods Studio Practice Contac",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Peter Mwangi",
+      "hasCanvas": false,
+      "bodyTextLen": 5336,
+      "bodyTextHash": "d00c167a1d5c9e04a7767cfefb25f8fb79d550b3d709085e56c9592124493fb0",
+      "bodyTextPrefix": "Skip to content Peter Mwangi Darkroom Menu Work Methods Studio P",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
